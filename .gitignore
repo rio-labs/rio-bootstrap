@@ -1,0 +1,15 @@
+# Python Cache Files
+__pycache__
+*.py[cod]
+
+# Rye/Hatch
+build/
+/dist/
+wheels/
+*.egg-info
+/.venv
+/requirements.lock
+/requirements-dev.lock
+
+# Editor Files
+/.vscode

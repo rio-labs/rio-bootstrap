@@ -1,0 +1,56 @@
+[project]
+name = "rio-bootstrap"
+version = "0.1.0"
+description = "Brings Bootstrap icons to Rio"
+authors = [{ name = "Jakob Pinterits", email = "jakob.pinterits@gmail.com" }]
+dependencies = ["rio-ui>=0.10.9,<1.0"]
+requires-python = ">= 3.10"
+readme = "README.md"
+license.file = "LICENSE.txt"
+keywords = [
+    "web-development",
+    "web-framework",
+    "framework",
+    "functional",
+    "web",
+    "app",
+    "user-interface",
+    "web-app",
+    "local-app",
+    "modern",
+    "rio",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Internet :: WWW/HTTP :: WSGI :: Application",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+homepage = "https://rio.dev"
+repository = "https://github.com/rio-labs/rio-bootstrap"
+documentation = "https://rio.dev/docs/api/Icon"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["rio_bootstrap"]
