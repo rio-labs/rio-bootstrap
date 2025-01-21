@@ -1,4 +1,4 @@
-# Rio Bootstrap 🌊👢
+# Rio Bootstrap 🌊 👢
 
 Makes the fabulous icons from Bootstrap available in to [Rio](https://rio.dev).
 
@@ -8,10 +8,10 @@ using underscores instead of dashes.
 
 ## Installation 🛠️
 
-`rio-bootstrap` is available on [PyPI](https://pypi.org/project/rio-jobs/):
+`rio-bootstrap` is available on [PyPI](https://pypi.org/project/rio-bootstrap/):
 
 ```sh
-python -m pip install rio-jobs
+python -m pip install rio-bootstrap
 ```
 
 ## Quickstart 🚀
