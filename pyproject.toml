@@ -42,12 +42,11 @@ repository = "https://github.com/rio-labs/rio-bootstrap"
 documentation = "https://rio.dev/docs/api/Icon"
 
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling==1.26.3", "hatch-vcs"]
 build-backend = "hatchling.build"
 
 [tool.rye]
 managed = true
-dev-dependencies = []
 
 [tool.hatch.metadata]
 allow-direct-references = true
